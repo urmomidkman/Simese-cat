@@ -1,0 +1,54 @@
+/* jQuery Countdown styles 2.0.0. */
+.is-ltdcountdown {
+	border: 1px solid #ccc;
+	background-color: #eee;
+}
+.ltdcountdown-rtl {
+	direction: rtl;
+}
+.ltdcountdown-holding span {
+	color: #888;
+}
+.ltdcountdown-row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.ltdcountdown-show1 .ltdcountdown-section {
+	width: 98%;
+}
+.ltdcountdown-show2 .ltdcountdown-section {
+	width: 48%;
+}
+.ltdcountdown-show3 .ltdcountdown-section {
+	width: 32.5%;
+}
+.ltdcountdown-show4 .ltdcountdown-section {
+	width: 24.5%;
+}
+.ltdcountdown-show5 .ltdcountdown-section {
+	width: 19.5%;
+}
+.ltdcountdown-show6 .ltdcountdown-section {
+	width: 16.25%;
+}
+.ltdcountdown-show7 .ltdcountdown-section {
+	width: 14%;
+}
+.ltdcountdown-section {
+	display: block;
+	float: left;
+	font-size: 75%;
+	text-align: center;
+}
+.ltdcountdown-amount {
+    font-size: 200%;
+}
+.ltdcountdown-period {
+    display: block;
+}
+.ltdcountdown-descr {
+	display: block;
+	width: 100%;
+}

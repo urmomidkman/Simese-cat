@@ -1,0 +1,112 @@
+.isl-ltd * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.isl-ltd-countdown {
+    color: inherit;
+    border: 0;
+    background: transparent;
+}
+
+/* Modal */
+.isl-ltd-modal {
+    color: #222;
+}
+.isl-ltd-modal .close {
+    position: absolute;
+    top: 0px;
+    right: 4px;
+}
+.isl-ltd-modal .modal-content {
+    border-radius: 0;
+}
+.isl-ltd-modal .modal-body {
+    padding: 20px;
+    border: 1px solid transparent;
+}
+.isl-ltd-modal .isl-ltd-discount-code {
+    letter-spacing: 1px;
+}
+.isl-ltd-modal .isl-ltd-countdown {
+    display: block;
+}
+
+/* Mini Popup */
+.isl-ltd-popup {
+    color: #222;
+    background: #def2f9;
+    width: 200px;
+    padding: 4px;
+    text-align: center;
+    position: fixed;
+    border-radius: 3px;
+    z-index: 100;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+    display: none;
+}
+.isl-ltd-popup .isl-ltd-inner {
+    min-height: 60px;
+    padding: 8px 3px;
+    border: 2px dashed #7db7cc;
+}
+.isl-ltd-popup .isl-ltd-inner > * {
+    margin: 0;
+    margin-bottom: 4px;
+}
+.isl-ltd-popup .isl-ltd-inner > *:last-child {
+    margin-bottom: 0;
+}
+.isl-ltd-popup .isl-ltd-discount-code {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 6px 0 0;
+    display: block;
+    line-height: 1em;
+}
+.isl-ltd-popup .isl-ltd-countdown {
+    font-size: 20px;
+    margin: 8px 0 0;
+    display: block;
+    line-height: 1em;
+}
+.isl-ltd-popup .is-expired {
+    font-size: 15px;
+    font-weight: bold;
+    color: #af0000;
+}
+.isl-ltd-popup .countdown-amount,
+.isl-ltd-popup .ltdcountdown-amount {
+    font-size: inherit;
+}
+.isl-popup-info-modal {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    font-size: 15px;
+}
+
+.isl-pos-topleft,
+.isl-pos-topcenter,
+.isl-pos-topright {
+    top: 8px;
+}
+.isl-pos-bottomleft,
+.isl-pos-bottomcenter,
+.isl-pos-bottomright {
+    bottom: 8px;
+}
+.isl-pos-topleft,
+.isl-pos-bottomleft {
+    left: 8px;
+}
+.isl-pos-topcenter,
+.isl-pos-bottomcenter {
+    left: 50%;
+    margin-left: -110px;
+}
+.isl-pos-topright,
+.isl-pos-bottomright {
+    right: 8px;
+}

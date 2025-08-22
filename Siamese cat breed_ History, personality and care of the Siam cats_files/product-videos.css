@@ -1,0 +1,73 @@
+.product-thumb .image {
+	position: relative;
+}
+.product-thumb .image .popup-videos,
+.product-wrapper .popup-videos {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 1px solid #E7E7E7;
+	border-radius: 4px;
+	background-color: #FFF;
+}
+.product-thumb .image .popup-videos a:focus,
+.product-wrapper .popup-videos a:focus {
+	outline:none;
+	border:none;
+}
+.product-thumb .popup-videos.list-inline,
+.product-wrapper .popup-videos.list-inline {
+	padding-left: 0;
+	margin-top: 5px;
+	margin-left: 0px;
+	margin-bottom: 0;
+	list-style: none;
+	text-align: left;
+	z-index: 9999;
+}
+.product-thumb .popup-videos.list-inline>li,
+.product-wrapper .popup-videos.list-inline>li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.product-thumb .image .popup-videos a i,
+.product-wrapper .popup-videos a i {
+	font-size: 20px;
+	color: #373737;
+}
+.thumbnails {
+	overflow: auto;
+	clear: both;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.thumbnails > li {
+	margin-left: 20px;
+}
+.thumbnails {
+	margin-left: -20px;
+}
+.thumbnails > img {
+	width: 100%;
+}
+.thumbnails .image-additional a {
+	margin-bottom: 20px;
+	padding: 5px;
+	display: block;
+	border: 1px solid #ddd;
+}
+.thumbnails .image-additional {
+	max-width: 78px;
+}
+.thumbnails .image-additional {
+	float: left;
+	margin-left: 20px;
+}
+.thumbnails .image-additional.video {
+	position: relative;
+	max-width: none;
+}
